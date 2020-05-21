@@ -7,151 +7,179 @@
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="js/bootstrap.min.js">
 
 </head>
 
 <body>
-  <!-- <div class="topbar">
-    <div class="container">
-      <div class="row">
-        <div class="navbar" position="fixed">
-          <a href="#home">Home</a>
-          <a href="#news">News</a>
-          <a href="#contact">Contact</a>
+
+  <ul class="nav nav-pills mb-5 py-4 bg-dark" id="pills-tab" role="tablist">
+    <li class="nav-item" role="presentation">
+      <a class="nav-link active text-light font-weight-bolder" id="pills-home-tab" data-toggle="pill" href="#pills-home"
+        role="tab" aria-controls="pills-home" aria-selected="true">HOME</a>
+    </li>
+    <li class="nav-item" role="presentation">
+      <a class="nav-link text-light font-weight-bolder" id="pills-profile-tab" data-toggle="pill" href="#pills-profile"
+        role="tab" aria-controls="pills-profile" aria-selected="false">SERVICES</a>
+    </li>
+    <li class="nav-item" role="presentation">
+      <a class="nav-link text-light font-weight-bolder" id="pills-contact-tab" data-toggle="pill" href="#pills-contact"
+        role="tab" aria-controls="pills-contact" aria-selected="false">PROJECTS</a>
+    </li>
+  </ul>
+
+  <div class="tab-content" id="pills-tabContent">
+
+
+    <div class="header mb-5 py-4">
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h2 class="display-4 font-weight-bolder">Muhammad Noman <span class="badge badge-secondary">WM-7108</span>
+          </h2>
+          <p class="lead font-weight-bold">Web Developer & Web Designer. </p>
+          <p><a href="https://outlook.live.com/" target="_blank"
+              class="fa fa-envelope px-1"></a><span>nomi690@hotmail.com</span></p>
         </div>
       </div>
     </div>
-  </div> -->
 
-  <div class="header">
-    <div class="jumbotron jumbotron-fluid">
+    <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+      <div class="card mb-5 py-4">
+        <div class="container">
+          <div class="card-header text-center text-uppercase bg-secondary ">
+            <h1> About Me </h1>
+          </div>
+          <div class="card-body">
+            <blockquote class="blockquote text-justify">
+              <p>I Muhammad Noman. Experience in UI/UX frontend Development. I have acquire the skills necessary to
+                build
+                great and premium
+                web site. Passion to design responsive and creative layout static sites, landing pages & complex dynamic
+                site </p>
+              <!-- <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer> -->
+            </blockquote>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+      <div class="card mb-5 py-4">
+        <div class="container">
+          <div class="card-header text-center bg-secondary">
+            <h1> SERVICES </h1>
+          </div>
+          <div class="card-body">
+            <blockquote class="blockquote mb-0 text-center">
+              <h4>WHAT CAN I DO</h4>
+              <!-- <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer> -->
+            </blockquote>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="creatdesign p-4 text-center shadow-lg p-3 mb-5  ">
+                <i class="fa fa-pencil" style="font-size:26px; color:brown;" aria-hidden="true"></i>
+                <h3> CREATIVE DESIGN </h3>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="fastsupport p-4  text-center shadow-lg p-3 mb-5 ">
+                <i class="fa fa-life-ring" style="font-size:26px; color:brown;" aria-hidden="true"></i> <br>
+                <h3> FAST SUPPORT </h3>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="creatdesign p-4 text-center shadow-lg p-3 mb-5  ">
+                <i class="fa fa-laptop" style="font-size:26px; color:brown;" aria-hidden="true"></i> <br>
+                <h3> User Interface </h3>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="fastsupport p-4  text-center shadow-lg p-3 mb-5  ">
+                <i class="fa fa-code" style="font-size:26px; color: brown;" aria-hidden="true"></i> <br>
+                <h3> CLEAN CODE </h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+      <div class="card mb-5 py-4">
+        <div class="container">
+          <div class="card-header text-center text-uppercase bg-secondary ">
+            <h1> PROJECTS </h1>
+          </div>
+
+        </div>
+      </div>
+
       <div class="container">
-        <h2 class="display-4 font-weight-bolder">Muhammad Noman <span class="badge badge-secondary">WM-7108</span>
-        </h2>
-        <p class="lead font-weight-bold">Web Developer & Web Designer. </p>
-        <p><a href="https://outlook.live.com/" target="_blank" class="fa fa-envelope px-1"></a><span>nomi690@hotmail.com</span></p>
-      </div>
-    </div>
-  </div>
+        <div class="row py-4">
+          <div class="col-md-4 p-3">
+            <div class="card bg-dark">
+              <img src="images/website.PNG" width="150" height="150" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title text-success">Saylani Website</h5>
+                <p class="card-text text-light">Here is the Saylani Website Home Page with html-5, Css-3 & Bootstrap.
+                </p>
+                <a href="website.html" class="btn btn-success">Explore</a>
+              </div>
+            </div>
+          </div>
 
-  <div class="card">
-    <div class="container">
-      <div class="card-header text-center text-uppercase bg-secondary ">
-        <h1> About Me </h1>
-      </div>
-      <div class="card-body">
-        <blockquote class="blockquote mb-0 text-justify">
-          <p>I Muhammad Noman. Experience in UI/UX frontend Development. I have acquire the skills necessary to build
-            great and premium
-            web site. Passion to design responsive and creative layout static sites, landing pages & complex dynamic
-            site </p>
-          <!-- <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer> -->
-        </blockquote>
-      </div>
-    </div>
-  </div>
+          <div class="col-md-4 p-3">
+            <div class="card bg-dark">
+              <img src="images/Form.PNG" width="150" height="150" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title text-danger">REGISTERATION FORM</h5>
+                <p class="card-text text-light">Now i have created Saylani Registeration form with html-5 & css-3.</p>
+                <a href="form/form.html" class="btn btn-danger">Explore</a>
+              </div>
+            </div>
+          </div>
 
-  <div class="card">
-    <div class="container">
-      <div class="card-header text-center text-uppercase bg-secondary ">
-        <h1> My Services </h1>
-      </div>
-      <div class="card-body">
-        <blockquote class="blockquote mb-0 text-center">
-          <h4>WHAT CAN I DO</h4>
-          <!-- <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer> -->
-        </blockquote>
-      </div>
-      <div class="row">
-        <div class="col-md-6">
-          <div class="creatdesign p-4 text-center shadow-lg p-3 mb-5  ">
-            <i class="fa fa-pencil" style="font-size:26px; color:brown;" aria-hidden="true"></i>
-            <h3> CREATIVE DESIGN </h3>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="fastsupport p-4  text-center shadow-lg p-3 mb-5 ">
-            <i class="fa fa-life-ring" style="font-size:26px; color:brown;" aria-hidden="true"></i> <br>
-            <h3> FAST SUPPORT </h3>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-6">
-          <div class="creatdesign p-4 text-center shadow-lg p-3 mb-5  ">
-            <i class="fa fa-laptop" style="font-size:26px; color:brown;" aria-hidden="true"></i> <br>
-            <h3> User Interface </h3>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="fastsupport p-4  text-center shadow-lg p-3 mb-5  ">
-            <i class="fa fa-code" style="font-size:26px; color: brown;" aria-hidden="true"></i> <br>
-            <h3> CLEAN CODE </h3>
+          <div class="col-md-4 p-3">
+            <div class="card bg-dark">
+              <img src="images/Capture.PNG" width="150" height="150" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title text-primary">Periodic Table</h5>
+                <p class="card-text text-light">First Practice on html to design Periodic table.</p>
+                <a href="periodic.html" class="btn btn-primary">Explore</a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
 
-
-
-  <div class="card">
-    <div class="container">
-      <div class="card-header text-center text-uppercase bg-secondary ">
-        <h1> PROJECTS </h1>
-      </div>
-
-    </div>
-  </div>
-
-  <div class="container">
-    <div class="row py-4">
-      <div class="col-md-4 p-3">
-        <div class="card bg-dark">
-          <img src="images/website.PNG" width="150" height="150" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title text-success">Saylani Website</h5>
-            <p class="card-text text-light">Here is the Saylani Website Home Page with html-5, Css-3 & Bootstrap.</p>
-            <a href="website.html" class="btn btn-success">Explore</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-4 p-3">
-        <div class="card bg-dark">
-          <img src="images/Form.PNG" width="150" height="150" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title text-danger">REGISTERATION FORM</h5>
-            <p class="card-text text-light">Now i have created Saylani Registeration form with html-5 & css-3.</p>
-            <a href="form/form.html" class="btn btn-danger">Explore</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-4 p-3">
-        <div class="card bg-dark">
-          <img src="images/Capture.PNG" width="150" height="150" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title text-primary">Periodic Table</h5>
-            <p class="card-text text-light">First Practice on html to design Periodic table.</p>
-            <a href="periodic.html" class="btn btn-primary">Explore</a>
-          </div>
+    <div class="col-md-12 bg-dark py-3 text-center mb-5 py-4">
+      <div class="footer">
+        <h3 class="text-light">Connect With Us</h3>
+        <div class="icons py-3">
+          <a href="https://www.facebook.com/nouman.aqeel" target="_blank" class="fa fa-facebook fa-2x px-1"></a>
+          <a href="https://www.linkedin.com/in/nouman-aqeel-93846911b/" target="_blank"
+            class="fa fa-linkedin fa-2x px-1"></a>
+          <a href="https://www.instagram.com/nouman_aqeel/" target="_blank" class="fa fa-instagram fa-2x px-1"></a>
+          <a href="https://github.com/Muhammad-Nouman-690" target="_blank" class="fa fa-github fa-2x px-1"></a>
         </div>
       </div>
     </div>
+
   </div>
 
-  <div class="col-md-12 bg-dark py-3 text-center">
-    <div class="footer">
-      <h3 class="text-light">Connect With Us</h3>
-      <div class="icons py-3">
-        <a href="https://www.facebook.com/nouman.aqeel" target="_blank" class="fa fa-facebook fa-2x px-1"></a>
-        <a href="https://www.linkedin.com/in/nouman-aqeel-93846911b/" target="_blank" class="fa fa-linkedin fa-2x px-1"></a>
-        <a href="https://www.instagram.com/nouman_aqeel/" target="_blank" class="fa fa-instagram fa-2x px-1"></a>
-        <a href="https://github.com/Muhammad-Nouman-690" target="_blank" class="fa fa-github fa-2x px-1"></a>
-      </div>
-    </div>
-  </div>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
 
 </body>
 
